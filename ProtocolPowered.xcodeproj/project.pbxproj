@@ -13,6 +13,13 @@
 		69875EBD1B6BF4B9001AEADA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69875EBC1B6BF4B9001AEADA /* Images.xcassets */; };
 		69875EC01B6BF4B9001AEADA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69875EBE1B6BF4B9001AEADA /* LaunchScreen.xib */; };
 		69875ECC1B6BF4B9001AEADA /* ProtocolPoweredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875ECB1B6BF4B9001AEADA /* ProtocolPoweredTests.swift */; };
+		69875ED61B6BF629001AEADA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875ED51B6BF629001AEADA /* Models.swift */; };
+		69875ED81B6BF696001AEADA /* ListableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875ED71B6BF696001AEADA /* ListableModels.swift */; };
+		69875EDA1B6BF7C2001AEADA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875ED91B6BF7C2001AEADA /* Helper.swift */; };
+		69875EDC1B6C0331001AEADA /* Listable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875EDB1B6C0331001AEADA /* Listable.swift */; };
+		69875EDE1B6C05E8001AEADA /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875EDD1B6C05E8001AEADA /* TableViewDataSource.swift */; };
+		69875EE01B6C06E1001AEADA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875EDF1B6C06E1001AEADA /* TableViewCell.swift */; };
+		69875EE21B6C103B001AEADA /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69875EE11B6C103B001AEADA /* TableViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		69875EC51B6BF4B9001AEADA /* ProtocolPoweredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolPoweredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69875ECA1B6BF4B9001AEADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69875ECB1B6BF4B9001AEADA /* ProtocolPoweredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPoweredTests.swift; sourceTree = "<group>"; };
+		69875ED51B6BF629001AEADA /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		69875ED71B6BF696001AEADA /* ListableModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListableModels.swift; sourceTree = "<group>"; };
+		69875ED91B6BF7C2001AEADA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		69875EDB1B6C0331001AEADA /* Listable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listable.swift; sourceTree = "<group>"; };
+		69875EDD1B6C05E8001AEADA /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		69875EDF1B6C06E1001AEADA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		69875EE11B6C103B001AEADA /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,13 @@
 				69875EBC1B6BF4B9001AEADA /* Images.xcassets */,
 				69875EBE1B6BF4B9001AEADA /* LaunchScreen.xib */,
 				69875EB31B6BF4B9001AEADA /* Supporting Files */,
+				69875ED51B6BF629001AEADA /* Models.swift */,
+				69875ED71B6BF696001AEADA /* ListableModels.swift */,
+				69875ED91B6BF7C2001AEADA /* Helper.swift */,
+				69875EDB1B6C0331001AEADA /* Listable.swift */,
+				69875EDD1B6C05E8001AEADA /* TableViewDataSource.swift */,
+				69875EE11B6C103B001AEADA /* TableViewDelegate.swift */,
+				69875EDF1B6C06E1001AEADA /* TableViewCell.swift */,
 			);
 			path = ProtocolPowered;
 			sourceTree = "<group>";
@@ -212,7 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69875ED61B6BF629001AEADA /* Models.swift in Sources */,
+				69875EE01B6C06E1001AEADA /* TableViewCell.swift in Sources */,
+				69875EDC1B6C0331001AEADA /* Listable.swift in Sources */,
+				69875ED81B6BF696001AEADA /* ListableModels.swift in Sources */,
+				69875EDA1B6BF7C2001AEADA /* Helper.swift in Sources */,
 				69875EB81B6BF4B9001AEADA /* ViewController.swift in Sources */,
+				69875EDE1B6C05E8001AEADA /* TableViewDataSource.swift in Sources */,
+				69875EE21B6C103B001AEADA /* TableViewDelegate.swift in Sources */,
 				69875EB61B6BF4B9001AEADA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
